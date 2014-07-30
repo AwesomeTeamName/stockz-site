@@ -1,10 +1,6 @@
 body {
 	font-family: "Roboto Slab";
-	background-color: #E9E6CA;
-}
-
-p {
-	padding: 40px;
+	background-color: azure;
 }
 
 div {
@@ -12,13 +8,30 @@ div {
 }
 
 nav li {
-	display:inline;
+	font-family: "Roboto Slab";
+	display:inline-block;
+	width: 33%;
+	text-align: center;
+}
+
+aside {
+	font-family: "Roboto Slab";
 }
 
 nav, aside, article, footer {
-	background-color: #BEBA94;
+	background-color: powderblue;
 }
 
 a:link{
 	color: darkslategrey ;
+}
+
+a:visited{
+	color: darkslategray;
+}
+
+p {
+	padding-left:50px;
+	padding-right: 50px;
+	text-align: center;
 }
