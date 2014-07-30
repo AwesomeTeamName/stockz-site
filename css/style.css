@@ -1,0 +1,24 @@
+body {
+	font-family: "Roboto Slab";
+	background-color: #E9E6CA;
+}
+
+p {
+	padding: 40px;
+}
+
+div {
+	/*outline: 1px solid red;*/
+}
+
+nav li {
+	display:inline;
+}
+
+nav, aside, article, footer {
+	background-color: #BEBA94;
+}
+
+a:link{
+	color: darkslategrey ;
+}
