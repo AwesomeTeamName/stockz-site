@@ -1,5 +1,5 @@
 body {
-	font-family: "Roboto Slab";
+	font-family: "Arvo";
 	background-color: azure;
 	background-image: url("../congruent_pentagon.png");
 }
@@ -9,21 +9,33 @@ div {
 }
 
 nav li {
-	font-family: "Roboto Slab";
+	font-family: "Arvo";
 	display:inline-block;
 	width: 33%;
 	text-align: center;
 }
 
 aside {
-	font-family: "Roboto Slab";
+	font-family: "Arvo";
 }
 
 nav, aside, article, footer {
 	background-color: rgba(168,219,168,0.7);
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+
 }
 
+nav, aside, footer{
+	font-weight: bold;
+}
+aside ul {
+	list-style: none;
+	padding-left: 10px;
+}
+
+header {
+		font-family: "Roboto Slab";
+}
 a:link{
 	color: darkslategrey ;
 }
