@@ -1,6 +1,7 @@
 body {
 	font-family: "Roboto Slab";
 	background-color: azure;
+	background-image: url("../congruent_pentagon.png");
 }
 
 div {
@@ -19,7 +20,8 @@ aside {
 }
 
 nav, aside, article, footer {
-	background-color: powderblue;
+	background-color: rgba(168,219,168,0.7);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
 }
 
 a:link{
